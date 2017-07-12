@@ -21,14 +21,14 @@
             style="@style/IntoductionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Do you think you know me ? " />
+            android:text="@string/TopHeader" />
 
         <TextView
             style="@style/IntoductionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:paddingBottom="12dp"
-            android:text="Try your best to figure it out." />
+            android:text="@string/BottomHeader" />
 
         <EditText
             android:id="@+id/players_name"
@@ -46,10 +46,10 @@
             android:text="What Is The Best Thing In The World?" />
 
         <EditText
-            android:id="@+id/Anything_goes"
+            android:id="@+id/Favorite_Thing_IN_World"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="E.g. Sleep, games, etc..."
+            android:hint="My favorite Thing To DO!"
             android:inputType="textCapSentences" />
 
         <TextView
@@ -142,21 +142,18 @@
             android:id="@+id/Hero_Academia_checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="bokuNoHero"
             android:text="Boku no Hero Academia" />
 
         <CheckBox
             android:id="@+id/SAO_CheckBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="sAO"
             android:text="Sword Art Online" />
 
         <CheckBox
             android:id="@+id/Stride_CheckBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="stride"
             android:text="Stride" />
 
         <View
@@ -175,28 +172,24 @@
             android:id="@+id/Overwatch_checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="overWatch"
             android:text="OverWatch" />
 
         <CheckBox
             android:id="@+id/Life_Strange_Checkbox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="lifeIsStrange"
             android:text="Life is Strange" />
 
         <CheckBox
             android:id="@+id/Left_4_Dead_checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="left4Dead"
             android:text="Left for Dead" />
 
         <CheckBox
             android:id="@+id/Ultimate_Despair_checkBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:onClick="ultimateDespair"
             android:text="Danganronpa Ultimate Despair" />
 
         <View

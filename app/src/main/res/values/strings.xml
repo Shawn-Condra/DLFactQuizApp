@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">DLFactQuizApp</string>
+    <string name="TopHeader">Do you think you know me ?</string>
+    <string name="BottomHeader"> Try your best to figure it out.</string>
 </resources>
